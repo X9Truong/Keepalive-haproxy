@@ -138,7 +138,7 @@ listen httpd
     bind 192.168.30.50:80
     balance  roundrobin
     mode  http
-    server web1 192.16.30.40:80 check
+    server web1 192.168.30.40:80 check
     server web2 192.168.30.41:80 check
 ```
 
