@@ -159,13 +159,13 @@ firewall-cmd --reload
 ```
 Kiểm tra xem node MASTER đã nhận được IP VIP chưa:
 
-<img src="\img\1.jpg">
+<img src="\img\2.jpg">
 
 Truy cập vào web thông qua VIP IP:
 
-<img src="\img\2.jpg">
-
 <img src="\img\3.jpg">
+
+
 
 <img src="\img\4.jpg">
 
