@@ -151,6 +151,17 @@ systemctl start haproxy
 systemctl enable haproxy
 ```
 
+Cấu hình port cho httpd
+`vi /etc/httpd/conf/httpd.conf`
+
+<img src="\img\6.jpg">
+
+Lưu ý làm trên tất cả các webserver.
+
+Khởi động lại httpd:
+
+`systemctl restart httpd`
+
 Mở port 80 để người dùng có thể truy cập
 
 ``` sh
