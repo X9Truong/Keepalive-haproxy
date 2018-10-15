@@ -14,7 +14,7 @@ Lưu ý: Nếu bạn sử dụng hđh CentOS 7.3-1611 thì sẽ phải update tr
 
 Để cho phép HAProxy ràng buộc vào các địa chỉ IP được chia sẻ, chúng ta thêm dòng sau vào `/etc/sysctl.conf` :
 
-echo "net.ipv4.ip_nonlocal_bind=1" >> /etc/sysctl.conf
+`echo "net.ipv4.ip_nonlocal_bind=1" >> /etc/sysctl.conf`
 
 Kiểm tra:
 
@@ -99,7 +99,7 @@ Trên webserver1
 
 ``` sh
 vi /var/www/html/index.html
-<p1> HAProxy1 <p1>
+<p1> HAProxy1 </p1>
 ```
 Làm tương tự trên webserver2
 
