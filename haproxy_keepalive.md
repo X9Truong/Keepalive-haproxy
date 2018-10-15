@@ -159,15 +159,16 @@ firewall-cmd --reload
 ```
 Kiểm tra xem node MASTER đã nhận được IP VIP chưa:
 
-<img src="\img\2.jpg">
+<img src="\img\4.jpg">
+
+
 
 Truy cập vào web thông qua VIP IP:
 
 <img src="\img\3.jpg">
 
+<img src="\img\2.jpg">
 
-
-<img src="\img\4.jpg">
 
 Thử stop haproxy kiểm tra xem IP VIP có tự động chuyển sang node BACKUP không.
 
