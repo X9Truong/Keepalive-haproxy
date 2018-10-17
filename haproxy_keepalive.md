@@ -25,7 +25,9 @@ Kiểm tra:
 ### Trên server haproxy1
 
 ``` sh
+
 vi /etc/keepalived/keepalived.conf
+! Configuration File for keepalived
 vrrp_script chk_haproxy {           
         script "killall -0 haproxy"     
         interval 2                      
@@ -49,6 +51,7 @@ vrrp_instance VI_1 {
 ### Trên server haproxy2
 
 ``` sh
+! Configuration File for keepalived
 vrrp_script chk_haproxy {       
         script "killall -0 haproxy"     
         interval 2                      
