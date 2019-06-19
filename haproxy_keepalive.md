@@ -1,6 +1,6 @@
 ### Hướng dẫn cài đặt và cấu hình HAProxy + keepalived trên CentOS 7
 
-<img src="\img\1.jpg">
+<img src="/img/1.jpg">
 
 HĐH: CentOS 7.3 - 17.08
 
