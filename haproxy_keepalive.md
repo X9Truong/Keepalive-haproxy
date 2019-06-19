@@ -157,7 +157,7 @@ systemctl enable haproxy
 Cấu hình port cho httpd
 `vi /etc/httpd/conf/httpd.conf`
 
-<img src="\img\6.jpg">
+<img src="/img/6.jpg">
 
 Lưu ý làm trên tất cả các webserver.
 
@@ -173,20 +173,20 @@ firewall-cmd --reload
 ```
 Kiểm tra xem node MASTER đã nhận được IP VIP chưa:
 
-<img src="\img\4.jpg">
+<img src="/img/4.jpg">
 
 
 
 Truy cập vào web thông qua VIP IP:
 
-<img src="\img\3.jpg">
+<img src="/img/3.jpg">
 
-<img src="\img\2.jpg">
+<img src="/img/2.jpg">
 
 
 Thử stop haproxy kiểm tra xem IP VIP có tự động chuyển sang node BACKUP không.
 
-<img src="\img\5.jpg">
+<img src="/img/5.jpg">
 
 
 
